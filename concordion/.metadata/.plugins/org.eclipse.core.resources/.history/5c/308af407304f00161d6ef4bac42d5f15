@@ -1,0 +1,9 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+    <body>
+        <p>
+            The Once you logged into the application with <span concordion:set="#userName">KranthiBlogs</span> and 
+            <span concordion:set="#passWord">PassWord</span> , on the Home Page, you should see 
+            <span concordion:assertEquals="greetingFor(#firstName)">Welcome KranthiBlogs!</span>
+        </p>
+    </body>
+</html>

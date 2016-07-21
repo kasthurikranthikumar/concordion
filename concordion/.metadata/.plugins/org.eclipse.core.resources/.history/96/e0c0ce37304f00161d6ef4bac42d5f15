@@ -1,0 +1,15 @@
+package org.concordion.automation;
+
+import org.concordion.integration.junit4.ConcordionRunner;
+import org.junit.runner.RunWith;
+
+@RunWith(ConcordionRunner.class)
+public class HelloConcordionFixture {
+
+	public String getHomePageWelcomeMessage(String uname, String password) {
+		if (uname == "KranthiBlogs" && password == "PassWord")
+			return "Welcome " + uname + "!";
+		else
+			return "Faile to login!" + uname;
+	}
+}

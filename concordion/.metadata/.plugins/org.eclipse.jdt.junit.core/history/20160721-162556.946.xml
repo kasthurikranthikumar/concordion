@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HelloConcordionFixture" project="automation" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="org.concordion.automation.HelloConcordionFixture" time="0.0">
+    <testcase name="[Concordion Specification for 'HelloConcordion']" classname="org.concordion.automation.HelloConcordionFixture" time="0.0">
+      <failure>org.concordion.internal.ConcordionAssertionError: Specification has failure(s). See output HTML for details.&#13;
+	at org.concordion.internal.ImplementationStatusChecker$3.assertIsSatisfied(ImplementationStatusChecker.java:101)&#13;
+	at org.concordion.internal.SummarizingResultRecorder.assertIsSatisfied(SummarizingResultRecorder.java:45)&#13;
+	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:201)&#13;
+	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:29)&#13;
+	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)&#13;
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:184)&#13;
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:23)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.concordion.integration.junit4.ConcordionRunner.run(ConcordionRunner.java:143)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>
